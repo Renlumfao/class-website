@@ -43,3 +43,73 @@ h6, p {
 }
 
 /** End of styling text tags **/
+
+/** Start of styling navigation **/
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+nav ul li a {
+    color: #000000;
+    font-size: 15px;
+    font-weight: 700px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ed4212;
+    font-weight: 700px;
+}
+
+button {
+    border-radius: 5px;
+    background-color: #ed4212;
+    border: 1.2;
+    border-color: #000000;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bolder;
+    padding: 10px;
+    width: 150px;
+    transition: all 0.9s;
+    cursor: pointer;
+    margin: 7px;
+    box-shadow: 2px, 2px, darkorange;
+}
+
+button:hover {
+    width: 170px;
+    transition: width 0.6s;
+}
+
+a {
+    color: white;
+}
+
+/**Further Styling Navigation**/
+
+#navstyle {
+    margin: 0px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.navbar { width: 100%; 
+    display: flex;
+    align-items: right;
+}
+.logo {
+    width: 160px;
+    margin: 25px 0px 0px 0px;
+    padding-left: 50px;
+}
