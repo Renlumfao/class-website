@@ -104,12 +104,76 @@ a {
     font-family: sans-serif;
 }
 
-.navbar { width: 100%; 
+.navbar { 
+    width: 100%; 
     display: flex;
     align-items: right;
 }
+
 .logo {
     width: 160px;
     margin: 25px 0px 0px 0px;
     padding-left: 50px;
+}
+
+.menuicon {
+    width: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+.search {
+    width: 20px;
+    cursor: pointer;
+    height: 22px;
+    margin-top: 55px;
+    margin-left: 8px;
+    margin-right: 20px;
+}
+
+#CTA1 #CTA2 {
+    font-family: sans-serif;
+    font-weight: 750px;
+    font-size: 12px;
+}
+
+/** Main Section **/
+
+.container {
+    width: 100%;
+    margin: 0%;
+    height: 50%;
+    box-sizing: border-box;
+    overflow: hidden;
+    z-index: 1;
+}
+
+section {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+/** Styling Row & Colums **/
+
+.row {
+    margin-bottom: 5%;
+    display: flex;
+}
+
+.col1 {
+    width: 50%;
+    align-items: center;
+    padding-right: 2px;
+    margin-left: 15px;
+}
+
+.col2 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.hero-images {
+    width: 100%;
+
 }
