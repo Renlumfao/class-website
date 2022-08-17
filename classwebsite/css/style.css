@@ -192,7 +192,7 @@ section {
 /** Styling Row & Colums **/
 
 .row {
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     display: flex;
 }
 
@@ -240,6 +240,7 @@ section {
 .cf_image {
     width: 150px;
     height: 150px;
+    padding-bottom: 5px;
 }
 
 figure b {
@@ -248,3 +249,52 @@ figure b {
 } 
 
 /** Styling The Benifit Section**/
+
+.col_benefits1a .col_benefits3a {
+    width: 40%;
+    display: block;
+    justify-content: center;
+}
+
+.col_benefits1b .col_benefits3b {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.benefit1 {
+    margin-bottom: 0;
+}
+
+.benefit2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.benefit3 {
+    margin-top: 0;
+}
+
+.col_benefits2a {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col_benefits2b {
+    width: 40%;
+    display: block;
+    justify-content: center;
+}
+
+.col_mission { 
+    width: 25%;
+    padding-left: 15px;
+}
+
+.col_missionb {
+    padding-left: 3%;
+    padding-right: 15px;
+}
