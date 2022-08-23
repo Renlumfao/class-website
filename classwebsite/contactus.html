@@ -46,7 +46,51 @@
                 </nav>
             </div>
         </div>
-        
+        <!-- Start of Contact section-->
+        <section class="contact">
+            <div class="row">
+                <div class="col_contactus">
+                    <h2>Contact Us</h2>
+                    <form action="mailto:wdamfe@netcomtraining.co.uk" method="post">
+                        <label for="fname"><b>First Name<span style="color: red;">*</span></b></label>
+                        <input id="fname" type="text" name="First Name" placeholder="Enter your first name..." required>
+
+                        <label for="lname"><b>Last Name<span style="color: red;">*</span></b></label>
+                        <input id="lname" type="text" name="Last Name" placeholder="Enter your last name..." required>
+
+                        <label for="eaddress"><b>Email Address<span style="color: red;">*</span></b></label>
+                        <input id="eaddress" type="emailC" name="Email Address" placeholder="Enter your email address..." required>
+
+                        <label for="pnumber"><b>Phone Number<span style="color: red;">*</span></b></label>
+                        <input id="pnumber" type="tel" name="Phone Number" placeholder="Enter your phone number..." required>
+
+                        <label for="subject"><b>Message<span style="color: red;">*</span></b></label>
+                        <textarea id="subject" type="text" name="Message" placeholder="Type your message here..."></textarea required>
+
+                        <center>
+                        <hr size="10" color="black"><br>
+                        <label><b>Please select a contact preference method:</b></label>
+                        <br><br>
+                        <label for="choice1">📧 Email</label>
+                        <input type="radio" id="choice1" name="contact" value="email">
+                        <label for="choice2">📞 Phone</label>
+                        <input type="radio" id="choice2" name="contact" value="phone">
+                        <label for="choice3">📮 Post</label>
+                        <input type="radio" id="choice3" name="contact" value="post">
+                        <br><br><hr size="10" color="black"><br>
+                        <label for="hverifcaion">Are You A Robot?<span style="color: red;">*</span> - No </label>
+                        <input id="hverifcaion" type="checkbox" name="Human Verification" value="NO" required>
+                        <br><br>
+                        <input type="submit" name="Submit Message">
+                        </center>
+                    </form>
+                </div>
+                <div class="col2">
+                    <img class="contacti" src="assets/images/ws_book_cover.PNG">
+                </div>
+            </div>
+        </section>
+        <!-- End of Contact section-->
         <footer>
             <br><br>
             <a href="index.html"><img src="assets/images/LogoA_trns.png" class="logo"></a>
