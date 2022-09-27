@@ -1,4 +1,7 @@
-html { zoom: 1; } /* Setting User Custom Browser Scale Back To 100% */
+html { 
+    zoom: 1; /* Setting User Custom Browser Scale Back To 100% */
+    scroll-behavior: smooth;
+ } 
 
 body {
     font-family: 'Roboto', sans-serif;
